@@ -1,50 +1,53 @@
 import React from "react";
 
+import pic from "./DSC_0931.JPG";
+import heroImage from './heroImage.jpg';
+
+import { FaLinkedin, FaGithub, FaTwitter, FaFacebook} from "react-icons/fa";
+
 //import { ReactComponent as Code } from "./code.svg";
 
 const Hero = () => (
-  <div className="container-none h-26 lg:py-[90px] text-center bg-sky-100 bg-im  ">
-    {/* <div className="flex flex-col lg:flex-row gab-15 items-center lg:px-20 sm:px-6 ">
-      <div className="flex flex-col flex-1 justify-center  w-[500px] h-[500px] ">
-        <p className=" text-6xl font-bold ">
-          Serves You With The Great Experience
-        </p>
-        <p className="  text-3xl my-5">
-          Full Stack Developer with 2+ years of experience in building  web applications
-        </p>
-      </div>
-      <div className="flex flex-1  item-center">
-        <Code className="h=[300px] w-[300px]  lg:w-[500px] lg:h-[500px] ml-8" />
-      </div>
-    </div> */}
-    <div class="max-w-sm m-auto rounded overflow-hidden shadow-lg">
-      <div className="h-48 w-48 mx-auto rounded-full container bg-white"></div>
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Daniel Nyarko Sarkodie</div>
-        <p class="text-gray-700 text-base">
-          Front-End Developer
-        </p>
-      </div>
-      <div class="px-6 pt-4 pb-2">
-        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-          #
-        </span>
-        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-          #
-        </span>
-        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-          #
-        </span>
+  <div className="relative w-full">
+    <div className="flex absolute h-[600px] w-full bg-black opacity-70">
+      <p>hiii</p>
+    </div>
+    <div className="absolute w-full h-full flex justify-center items-center">
+      <div className="container bg-neutral-900 opacity-90 max-w-md h-[440px]    flex justify-center items-center rounded overflow-hidden shadow-lg">
+        <div>
+          <img className="m-auto h-48 rounded-full" src={pic} alt="" />
+          <div className="px-6 py-4">
+            <div className="font-bold font-serif text-white text-2xl mb-1">
+              Daniel Nyarko Sarkodie
+            </div>
+            <p className="text-white text-center font-light">
+              Front-End Developer
+            </p>
+          </div>
+          <div className="flex justify-center ">
+            <span className="inline-block bg-white rounded-full p-3  mr-2 mb-2">
+              <FaLinkedin className="h-6 w-6 text-black" />
+            </span>
+            <span className="inline-block bg-gray-200 rounded-full p-3  mr-2 mb-2">
+              <FaTwitter className="h-6 w-6 text-blue-500" />
+            </span>
+            <span className="inline-block bg-gray-200 rounded-full p-3  mr-2 mb-2">
+              <FaGithub className="h-6 w-6 text-black" />
+            </span>
+            <span className="inline-block bg-gray-200 rounded-full p-3  mr-2 mb-2">
+              <FaFacebook className="h-6 w-6 text-blue-500" />
+            </span>
+            
+          </div>
+        </div>
       </div>
     </div>
-    {/* <div className=" w-[400px] h-[400px] item-center m-auto bg-slate-600"> */}
 
-    {/* <div className=""> */}
-    {/* <div className="h-56 w-56 rounded-full container bg-white"></div> */}
-    {/* <h2>Daniel Nyarko Sarkodie</h2>
-        <h5>Front-End Developer</h5> */}
-    {/* </div> */}
-    {/* </div> */}
+    <div className="flex-shrink-0 ">
+      <img src={heroImage} alt="" className="h-[600px] w-full" />
+    </div>
+
+    
   </div>
 );
 
