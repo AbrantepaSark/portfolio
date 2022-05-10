@@ -7,7 +7,10 @@ import { FaPhone, FaMailBulk, FaGlobe, FaSearchLocation, FaSuitcase } from "reac
 const Details = () => {
   return (
     <div className="lg:pl-16">
-      <ul className="mt-5">
+      <p className=" text-md font-bold text-center text-slate-700">
+        Personal Information
+      </p>
+      <ul className="mt-3">
         <li>
           <Personal icon={<FaPhone />} title="Phone" text="+233 548974517" />
         </li>
@@ -33,11 +36,7 @@ const Details = () => {
           />
         </li>
         <li>
-          <Personal
-            icon={<FaSuitcase />}
-            title="Job Status"
-            text="Freelance"
-          />
+          <Personal icon={<FaSuitcase />} title="Job Status" text="Freelance" />
         </li>
       </ul>
     </div>

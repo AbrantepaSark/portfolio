@@ -5,11 +5,11 @@ import SkillBar from '../skillBar';
  const Tech = () => {
   return (
     <div className="flex-1">
-      <p className="mb-5 text-center text-md font-bold text-slate-700 ">
-        Professional Skills
+      <p className="mb-5 md:text-center text-md font-bold text-slate-700 ">
+        Technical Skills
       </p>
       <SkillBar
-        title="HTML & CSS"
+        title="HTML, CSS, TailwindCSS"
         width={"w-11/12"}
         barColor={"bg-gray-700"}
         percentage="90%"
@@ -21,22 +21,23 @@ import SkillBar from '../skillBar';
         percentage="80%"
       />
       <SkillBar
-        title="Reactjs"
+        title="ReactJS, ExpressJS & NodeJS"
+        width={"w-10/12"}
+        barColor={"bg-gray-700"}
+        percentage="80%"
+      />
+      <SkillBar
+        title="REST API, JSON"
         width={"w-8/12"}
         barColor={"bg-gray-700"}
         percentage="70%"
       />
+
       <SkillBar
-        title="TailWind CSS"
+        title="Figma, PhotoShop"
         width={"w-11/12"}
         barColor={"bg-gray-700"}
         percentage="90%"
-      />
-      <SkillBar
-        title="Figma"
-        width={"w-9/12"}
-        barColor={"bg-gray-700"}
-        percentage="80%"
       />
       <SkillBar
         title="Git"

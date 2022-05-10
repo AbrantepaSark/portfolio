@@ -1,14 +1,15 @@
 import React from 'react'
 
 import Tech from './tech/tech';
+import Prof from './prof/prof';
+import Header from '../Header/header';
 
  const Skills = () => {
   return (
-    <div className="lg:py-12">
-      <h2 className="font-bold font-serif text-cyan-900 text-3xl">Skills</h2>
-      <div className="container w-12 h-1 bg-black mb-5"></div>
+    <div className="py-10 px-6 lg:py-10 lg:px-28">
+      <Header text="Skills" />
       <div className="flex">
-        <Tech />
+        <Prof />
         <Tech />
       </div>
     </div>

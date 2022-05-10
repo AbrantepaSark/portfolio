@@ -1,21 +1,21 @@
 import React from "react";
 
 import NavItem from "./Nav_item/NavItem";
-import myLogo from './port_logo.png';
+// import myLogo from './port_logo.png';
 
 const NavBar = () => {
     
     return (
       <div className="container-none bg-white drop-shadow-md">
-        <div className="flex justify-between items-center lg:px-20 sm:px-6">
-          {/* <a class=" font-normal text-xl lg:text-2xl" href="/">
-            Daniel
-          </a> */}
-          <img className=" h-16" src={myLogo} alt="" />
+        <div className="flex justify-between items-center lg:px-20 p-3 md:p-0">
+          <a class=" font-bold text-xl lg:text-2xl" href="/">
+            SARK
+          </a>
+          
           <div class="block lg:hidden">
-            <button class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-800 hover:border-teal-500 appearance-none focus:outline-none">
+            <button class="flex items-center px-3   text-gray-500  hover:text-gray-800 hover:border-teal-500 appearance-none focus:outline-none">
               <svg
-                class="fill-current h-3 w-3"
+                class="fill-current h-5 w-5"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >

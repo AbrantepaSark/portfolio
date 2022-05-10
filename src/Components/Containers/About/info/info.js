@@ -9,7 +9,7 @@ import { FaMusic, FaBook, FaGamepad } from "react-icons/fa"
  const Info = () => {
   return (
     <div className="flex-1  ">
-      <p className="pt-5 text-justify">
+      <p className=" text-justify">
         I am{" "}
         <span className="text-teal-900 font-bold">Daniel Nyarko Sarkodie</span>,
         Hardworking and reliable Developer with strong ability in user interface
