@@ -5,9 +5,7 @@ import SkillBar from '../skillBar';
  const Tech = () => {
   return (
     <div className="flex-1">
-      <p className="mb-5 md:text-center text-md font-bold text-slate-700 ">
-        Technical Skills
-      </p>
+      <p className=" font-semibold text-lg mb-3 ">Technical Skills</p>
       <SkillBar
         title="HTML, CSS, TailwindCSS"
         width={"w-11/12"}

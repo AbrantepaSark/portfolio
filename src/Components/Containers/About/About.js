@@ -9,7 +9,7 @@ const About = () => {
       <div className="py-10 px-6 lg:py-10 lg:px-28">
         <Header text="About Me" />
 
-        <div className=" flex flex-col gap-y-10 lg:flex-row ">
+        <div className=" flex flex-col gap-y-10 md:flex-row md:space-x-10">
           <Info />
           <div className="flex-1 ">
             

@@ -3,7 +3,7 @@ import React from "react";
 import pic from "./DSC_0931.JPG";
 import heroImage from './heroImage.jpg';
 
-import { FaLinkedin, FaGithub, FaTwitter, FaFacebook} from "react-icons/fa";
+import Social from "./social";
 
 //import { ReactComponent as Code } from "./code.svg";
 
@@ -24,21 +24,7 @@ const Hero = () => (
               Front-End Developer
             </p>
           </div>
-          <div className="flex justify-center ">
-            <span className="inline-block bg-white rounded-full p-3  mr-2 mb-2">
-              <FaLinkedin className="h-6 w-6 text-black" />
-            </span>
-            <span className="inline-block bg-gray-200 rounded-full p-3  mr-2 mb-2">
-              <FaTwitter className="h-6 w-6 text-blue-900" />
-            </span>
-            <span className="inline-block bg-gray-200 rounded-full p-3  mr-2 mb-2">
-              <FaGithub className="h-6 w-6 text-black" />
-            </span>
-            <span className="inline-block bg-gray-200 rounded-full p-3  mr-2 mb-2">
-              <FaFacebook className="h-6 w-6 text-blue-900" />
-            </span>
-            
-          </div>
+          <Social />
         </div>
       </div>
     </div>

@@ -5,11 +5,11 @@ import ResumeSection from './resumeSection';
 
  const Resume = () => {
   return (
-    <div className="py-10 px-6 lg:py-10 lg:px-28 md:bg-slate-100">
+    <div className="py-10 px-6 lg:py-10 lg:px-28 md:bg-gray-100">
       <Header text="Resume" />
       <div className="flex flex-col gap-y-10 md:flex-row">
         <div className="flex-1">
-          <p className="font-bold   text-lg ">Work Experience</p>
+          <p className="font-semibold  text-lg ">Work Experience</p>
           <div className="gap-y-5 flex flex-col">
             <ResumeSection
               title="Front-End Web Developer"
@@ -26,7 +26,7 @@ import ResumeSection from './resumeSection';
           </div>
         </div>
         <div className="flex-1">
-          <p className="font-bold   text-lg ">Education</p>
+          <p className="font-semibold   text-lg ">Education</p>
           <div className="gap-y-5 flex flex-col">
             <ResumeSection
               title="Bachelor of Science( Computer Science )"
@@ -44,7 +44,7 @@ import ResumeSection from './resumeSection';
         </div>
       </div>
       <div className="h-30 w-full flex justify-center  mt-12">
-        <button className="bg-blue-600 hover:bg-blue-800 text-white font-bold py-2 px-4">
+        <button className="bg-blue-600 hover:bg-blue-800 rounded-md text-white font-bold py-2 px-4">
           Download CV
         </button>
       </div>

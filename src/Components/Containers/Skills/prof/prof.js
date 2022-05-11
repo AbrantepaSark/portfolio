@@ -5,10 +5,8 @@ import SkillBar from '../skillBar';
  const Prof = () => {
   return (
     <div className="flex-1">
-      <p className="mb-5 md:text-center text-md font-bold text-slate-700 bg-">
-        Professional Skills
-      </p>
-      
+      <p className=" font-semibold text-lg mb-3 ">Professional Skills</p>
+
       <SkillBar
         title="Professionalism"
         width={"w-11/12"}

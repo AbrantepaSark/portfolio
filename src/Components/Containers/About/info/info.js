@@ -18,19 +18,18 @@ import { FaMusic, FaBook, FaGamepad } from "react-icons/fa"
         environments, ready to learn and contribute to team success.
       </p>
       <div className="mt-5">
-        <p className="text-center text-md font-bold text-slate-700">
-          My Interests
-        </p>
+        <p className="font-bold   text-lg mb-3 ">My Interests</p>
         <div className="flex  justify-evenly mt-4">
           <Interest
             text="Music"
             icon={<FaMusic className="h-7 w-7 text-blue-500" />}
           />
           <Interest
-          text="Games"
-           icon={<FaGamepad className="h-7 w-7 text-blue-500" />} />
+            text="Games"
+            icon={<FaGamepad className="h-7 w-7 text-blue-500" />}
+          />
           <Interest
-          text="Reading"
+            text="Reading"
             icon={<FaBook className="h-7 w-7 text-blue-500" />}
           />
         </div>

@@ -3,17 +3,17 @@ import { FaDesktop } from "react-icons/fa";
 
  const SinglePort = props => {
   return (
-      <div className="h-[200px] w-[550px] gap-x-3 flex flex-row  drop-shadow-md bg-white">
-        <div className="h-full w-78 flex-1 bg-slate-900">
+      <div className="h-[200px] max-w-md gap-x-1 flex flex-row  drop-shadow-md bg-white">
+        <div className="h-full w-52 flex-1 bg-slate-800">
           <FaDesktop className="text-white mx-auto my-14 h-20 w-20" />
         </div>
-        <div className="flex-1 pt-3 pr-5">
-          <p className="font-bold text-black text-lg mb-2">{props.title}</p>
+        <div className="flex-1 p-5">
+          <p className="font-semibold text-black text-lg mb-1">{props.title}</p>
           <p className="text-justify text-sm">
             This is a ToDo web application that was build to help users manage
             their tasks{" "}
           </p>
-          <button className="bg-blue-600 hover:bg-blue-800 text-white font-bold py-2 px-4 mx-12 md:mx-20 md:mt-10 mt-5">
+          <button className="bg-slate-500 hover:bg-blue-800 rounded-md text-white text-sm py-2 px-4 mx-auto md:mt-5 mt-3">
             Visit Site
           </button>
         </div>
