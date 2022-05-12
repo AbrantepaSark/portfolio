@@ -13,7 +13,7 @@ import { FaDesktop } from "react-icons/fa";
             This is a ToDo web application that was build to help users manage
             their tasks{" "}
           </p>
-          <button className="bg-slate-500 hover:bg-blue-800 rounded-md text-white text-sm py-2 px-4 mx-auto md:mt-5 mt-3">
+          <button className="bg-slate-500 hover:bg-slate-800 rounded-md text-white text-sm py-2 px-4 mx-auto md:mt-5 mt-3">
             Visit Site
           </button>
         </div>
