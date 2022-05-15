@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 import NavItem from "./Nav_item/NavItem";
 import DownLoad from "./DownloadBtn/button";
-//import myLogo from './port_logo.png';
 
 const NavBar = props => {
     const [toggle, setToggle] = useState(true);

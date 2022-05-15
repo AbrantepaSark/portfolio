@@ -9,7 +9,7 @@ import { FaDesktop } from "react-icons/fa";
         </div>
         <div className="flex-1 p-5">
           <p className="font-semibold text-black text-lg mb-1">{props.title}</p>
-          <p className="text-justify text-sm">
+          <p className=" text-sm">
             This is a ToDo web application that was build to help users manage
             their tasks{" "}
           </p>

@@ -13,9 +13,9 @@ const Hero = () => (
 
     </div>
     <div className="absolute w-full h-full flex justify-center items-center">
-      <div className="container bg-neutral-900 opacity-90 max-w-sm md:max-w-md h-[400px] md:h-[450px]    flex justify-center items-center rounded overflow-hidden shadow-lg">
+      <div className="container bg-neutral-900 opacity-90 max-w-sm md:max-w-md h-[350px] md:h-[450px]    flex justify-center items-center rounded overflow-hidden shadow-lg">
         <div>
-          <img className="m-auto h-44 rounded-full" src={pic} alt="" />
+          <img className="m-auto h-36 md:h-44 rounded-full" src={pic} alt="" />
           <div className="px-6 py-4">
             <div className="font-bold font-serif text-white text-xl md:text-2xl mb-1">
               Daniel Nyarko Sarkodie
