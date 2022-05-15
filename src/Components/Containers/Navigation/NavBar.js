@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+//import { IoIosMenu, IoIosClose } from "react-icons/io";
 
 import NavItem from "./Nav_item/NavItem";
 import DownLoad from "./DownloadBtn/button";
@@ -12,7 +13,7 @@ const NavBar = props => {
 
     return (
       <nav
-        className={`flex items-center justify-between flex-wrap bg-white py-4 px-7 lg:px-28 lg:py-0`}
+        className={` flex items-center justify-between flex-wrap bg-white py-4 px-7 lg:px-28 lg:py-0`}
       >
         <div className="flex items-center flex-shrink-0 text-blue-900  mr-10">
           <span className="font-semibold text-2xl tracking-tight">SARK</span>
@@ -30,6 +31,7 @@ const NavBar = props => {
               <title>Menu</title>
               <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
             </svg>
+            hi
           </button>
         </div>
         <div

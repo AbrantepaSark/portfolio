@@ -10,11 +10,7 @@ const Footer = () => {
         <div className='flex-1'>
           <p className="font-semibold   text-lg mb-3 ">About</p>
           <p className=" text-justify">
-            I am{" "}
-            <span className="text-teal-900 font-semibold">
-              Daniel Nyarko Sarkodie
-            </span>
-            , Hardworking and reliable Developer with strong ability in user
+            I am a hardworking and reliable Developer with strong ability in user
             interface design and development of web applications. I am an
             Organized and motivated developer eager to apply acquired skills in
             various environments, ready to learn and contribute to team success.

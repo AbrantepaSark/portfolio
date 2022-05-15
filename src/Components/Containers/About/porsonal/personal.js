@@ -6,11 +6,11 @@ const Personal = props => {
         <div className="flex-1 flex-row">
           <div className='flex text-blue-900'>
               {props.icon}
-              <p className='mx-3 font-semibold'>{props.title + " :"}</p>
+              <p className='mx-3 font-normal'>{props.title + " :"}</p>
           </div>
         </div>
         <div className="flex-1">
-          <p>{props.text}</p>
+          <p className='text-left'>{props.text}</p>
         </div>
       </div>
     

@@ -6,7 +6,7 @@ import React from 'react'
       
       <div className="flex text-neutral-600">
         {props.icon}
-        <p className="mx-3 font-semibold">{props.text}</p>
+        <p className="mx-3">{props.text}</p>
       </div>
     </div>
   );

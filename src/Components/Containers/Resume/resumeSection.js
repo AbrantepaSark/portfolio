@@ -6,7 +6,7 @@ import { FaUniversity, FaLocationArrow, FaClock } from "react-icons/fa";
  const ResumeSection = props => {
   return (
     <div className="mt-2 md:ml-24">
-      <p className='font-semibold text-blue-900'>{props.title}</p>
+      <p className=' text-blue-900'>{props.title}</p>
       <DetResume
         text={props.subTitle}
         icon={<FaUniversity className="mt-1" />}
