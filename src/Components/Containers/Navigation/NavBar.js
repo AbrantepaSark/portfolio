@@ -15,7 +15,7 @@ const NavBar = props => {
       <nav
         className={` flex items-center justify-between flex-wrap bg-white py-4 px-7 lg:px-28 lg:py-0`}
       >
-        <div className="flex items-center flex-shrink-0 text-blue-900  mr-10">
+        <div className="flex items-center flex-shrink-0 text-[#1d2124]  mr-10">
           <span className="font-semibold text-2xl tracking-tight">SARK</span>
         </div>
         <div className=" lg:hidden">
@@ -40,9 +40,9 @@ const NavBar = props => {
           } flex-grow lg:flex lg:items-center lg:w-auto`}
         >
           <div className="text-sm lg:flex-grow">
-            <NavItem onClick={() => props.onScroll(props.home.current)}>
-              Home
-            </NavItem>
+            {/* <NavItem onClick={() => props.onScroll(props.home.current)}>
+              Ho
+            </NavItem> */}
             <div>
               <NavItem onClick={() => props.scrollTo(props.about.current)}>
                 About

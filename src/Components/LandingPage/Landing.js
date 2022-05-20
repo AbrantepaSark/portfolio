@@ -44,13 +44,13 @@ const Landing = () => {
 return (
   <div>
     <nav className="sticky top-0 z-40 drop-shadow-lg  flex items-center justify-between flex-wrap bg-white py-4 px-7 lg:px-28 lg:py-0">
-      <div className="flex items-center flex-shrink-0 text-blue-900  mr-10">
-        <span className="font-semibold text-2xl tracking-tight">SARK</span>
+      <div className="flex items-center flex-shrink-0 text-[#1d2124]  mr-10">
+        <span className="font-bold text-2xl tracking-tight">SARK</span>
       </div>
       <div className=" lg:hidden">
         <button
           onClick={toggleHandler}
-          className="flex items-center px-3 py-2 border rounded text-gray-900  border-gray-900"
+          className="flex  items-center px-3 py-2 border rounded text-gray-900  border-gray-900"
         >
           <svg
             className="fill-current h-3 w-3"
@@ -70,26 +70,26 @@ return (
         <div className="text-sm lg:flex-grow">
           <p
             onClick={() => scrollHandler(homeRef)}
-            className="block mt-4 lg:inline-block lg:mt-0 hover:font-bold  text-gray-900 lg:hover:bg-gray-800 lg:hover:text-white lg:py-5 lg:px-7 py-2 px-0 "
+            className="block mt-4 lg:inline-block lg:mt-0 text-lg lg:hover:bg-gray-800 lg:hover:text-white lg:py-5 lg:px-7 py-2 px-0 "
           >
             Home
           </p>
 
           <p
             onClick={() => scrollHandler(aboutRef)}
-            className="block mt-4 lg:inline-block lg:mt-0 hover:font-bold  text-gray-900 lg:hover:bg-gray-800 lg:hover:text-white lg:py-5 lg:px-7 py-2 px-0 "
+            className="block mt-4 lg:inline-block lg:mt-0 text-lg  text-gray-900 lg:hover:bg-gray-800 lg:hover:text-white lg:py-5 lg:px-7 py-2 px-0 "
           >
             About
           </p>
           <p
             onClick={() => scrollHandler(portRef)}
-            className="block mt-4 lg:inline-block lg:mt-0 hover:font-bold  text-gray-900 lg:hover:bg-gray-800 lg:hover:text-white lg:py-5 lg:px-7 py-2 px-0 "
+            className="block mt-4 lg:inline-block lg:mt-0 text-lg  text-gray-900 lg:hover:bg-gray-800 lg:hover:text-white lg:py-5 lg:px-7 py-2 px-0 "
           >
             Portfolio
           </p>
           <p
             onClick={() => scrollHandler(contactRef)}
-            className="block mt-4 lg:inline-block lg:mt-0 hover:font-bold  text-gray-900 lg:hover:bg-gray-800 lg:hover:text-white lg:py-5 lg:px-7 py-2 px-0 "
+            className="block mt-4 lg:inline-block lg:mt-0 text-lg  text-gray-900 lg:hover:bg-gray-800 lg:hover:text-white lg:py-5 lg:px-7 py-2 px-0 "
           >
             Contact
           </p>
@@ -119,7 +119,6 @@ return (
     </div>
     <Footer />
   </div>
-  
 );
 } 
 
