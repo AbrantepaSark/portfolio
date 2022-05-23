@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Details from '../About/porsonal/details';
-import Social from '../Hero/social';
+import Social from './social';
 
 const Footer = () => {
   return (

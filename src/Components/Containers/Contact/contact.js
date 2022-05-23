@@ -45,7 +45,7 @@ const Contact = () => {
                 placeholder="Enter your message"
               />
             </div>
-            <button className="bg-[#6d6d6d] hover:bg-[#4b4a4a] text-white w-full font-semibold py-2 mx-4 mt-8 rounded-md">
+            <button className="bg-[#6d6d6d] hover:bg-[#575656] text-white w-full font-semibold py-2 mx-4 mt-8 rounded-md">
               Submit
             </button>
           </div>
