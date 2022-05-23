@@ -7,7 +7,9 @@ import { FaPhone, FaMailBulk, FaGlobe, FaSearchLocation, FaSuitcase } from "reac
 const Details = () => {
   return (
     <div className="lg:pl-16 text-lg">
-      <p className=" font-bold mb-3 text-xl">Personal Information</p>
+      <p className=" font-semibold mb-3 text-[#0c1d5f] text-xl">
+        Personal Information
+      </p>
       <ul>
         <li>
           <Personal icon={<FaPhone />} title="Phone" text="+233 548974517" />
