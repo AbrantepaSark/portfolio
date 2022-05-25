@@ -7,7 +7,7 @@ import Header from "../Header/header";
 
 const Portfolio = () => {
   return (
-    <div className=" py-10 px-6 lg:py-10 lg:px-28">
+    <div className=" py-16 px-6 lg:py-20 lg:px-28 bg-[#33343c]">
       <Header text="Portfolio" />
       <div className="flex flex-wrap gap-y-5 justify-center md:gap-x-5  mt-10">
         <SinglePort title="ToDo App" />

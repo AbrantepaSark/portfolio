@@ -5,7 +5,7 @@ import Social from './social';
 
 const Footer = () => {
   return (
-    <div className="py-10 px-10 lg:py-10 lg:px-28 bg-gray-50">
+    <div className="py-16 px-6 lg:py-20 lg:px-28 bg-[#38393f]">
       <div className="flex flex-col md:flex-row gap-y-10 md:gap-x-10">
         <div className="flex-1">
           <p className="font-semibold text-[#0c1d5f]  text-xl mb-3 ">About</p>

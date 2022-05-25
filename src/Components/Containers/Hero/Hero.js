@@ -1,18 +1,30 @@
 import React from "react";
 
-import pic from "./DSC_0931.JPG";
+import Download from "../DownloadBtn/button";
+
+// import pic from "./DSC_0931.JPG";
 import heroImage from './heroImage.jpg';
 
-//import Social from "./social";
-
-//import { ReactComponent as Code } from "./code.svg";
 
 const Hero = () => (
   <div className="relative w-full">
-    <div className="flex absolute h-[400px] md:h-[700px] w-full bg-black opacity-70"></div>
+    <div className="flex absolute h-[500px] md:h-[700px] w-full bg-[#2e2f34] opacity-80"></div>
     <div className="absolute w-full h-full flex justify-center items-center">
-      <div className="container bg-[#1d2124] opacity-90 h-[300px] w-[300px] md:h-[450px] md:w-[450px]    flex justify-center items-center rounded overflow-hidden shadow-lg">
-        <div>
+      <div className="container flex justify-center items-center w-4/5 md:w-1/2">
+        <div className="text-center text-white ">
+          <p className="md:text-xl font-normal">I am a </p>
+          <p className="font-bold text-4xl md:text-6xl">Web Developer</p>
+          <p className="leading-6 md:text-xl mt-4 font-thin">
+            I analyse, design and create great web applications, I analyse,
+            design and create great web applications,I analyse, design and
+            create great web applications,I analyse, design and create great web
+            applications
+          </p>
+          <div className="mt-6 md:mt-10">
+            <Download />
+          </div>
+        </div>
+        {/* <div>
           <img className="m-auto h-28 md:h-48 rounded-full" src={pic} alt="" />
           <div className="px-3 py-3 md:mt-4">
             <div className="font-semibold text-center font-serif text-white md:text-2xl mb-1">
@@ -28,13 +40,16 @@ const Hero = () => (
           <div className="w-full flex justify-around my-2">
             <div className="container w-12 h-1 bg-white"></div>
           </div>
-          {/* <Social /> */}
-        </div>
+        </div>*/}
       </div>
     </div>
 
-    <div className="flex-shrink-0 ">
-      <img src={heroImage} alt="" className="h-[400px] md:h-[700px] w-full" />
+    <div className=" ">
+      <img
+        src={heroImage}
+        alt=""
+        className="object-cover h-[500px] md:h-[700px] w-full"
+      />
     </div>
   </div>
 );

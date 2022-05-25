@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 //import NavigationBar from '../Containers/Navigation/NavBar';
 import Hero  from "../Containers/Hero/Hero";
@@ -8,7 +9,6 @@ import Portfolio from "../Containers/Portfolio/portfolio";
 import Resume from "../Containers/Resume/resume";
 import Contact from "../Containers/Contact/contact";
 import Footer from "../Containers/Footer/footer";
-import DownLoad from "../Containers/Navigation/DownloadBtn/button";
 
 const Landing = () => {
 
@@ -63,9 +63,7 @@ return (
         </button>
       </div>
       <div
-        className={`w-full ${
-          toggle && "hidden"
-        } flex-grow lg:flex lg:items-center lg:w-auto`}
+        className={`w-full ${toggle && "hidden"} flex-grow lg:flex lg:w-auto`}
       >
         <div className="text-sm lg:flex-grow">
           <p
@@ -94,8 +92,16 @@ return (
             Contact
           </p>
         </div>
-        <div>
-          <DownLoad />
+        <div className="mt-4 md:my-0 flex flex-row items-center space-x-2">
+          <a href="/">
+            <FaLinkedin className="h-6 w-6" />
+          </a>
+          <a href="/">
+            <FaTwitter className="h-6 w-6" />
+          </a>
+          <a href="/">
+            <FaGithub className="h-6 w-6" />
+          </a>
         </div>
       </div>
     </nav>

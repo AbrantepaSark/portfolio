@@ -6,7 +6,7 @@ import MyPDF from './sarkodie_cv.pdf'
   return (
     <a
       href={MyPDF}
-      className="inline-block px-4 py-3 leading-none border rounded text-[#1d2124] border-[#1d2124] hover:border-transparent hover:text-white hover:bg-[#6d6d6d] mt-4 lg:mt-0"
+      className="inline-block py-3 px-5 md:py-5 md:px-8 text-lg md:text-xl font-bold bg-[#e2c647] text-black hover:text-white border border-[#e2c647] hover:bg-transparent mt-4 lg:mt-0"
     >
       Download CV
     </a>

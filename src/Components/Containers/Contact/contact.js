@@ -4,7 +4,7 @@ import Header from '../Header/header';
 
 const Contact = () => {
   return (
-    <div className="py-10 px-6 lg:py-10 lg:px-28">
+    <div className="py-16 px-6 lg:py-20 lg:px-28 bg-[#33343c]">
       <Header text="Contact" />
 
       <div className="container drop-shadow-md bg-white p-8 md:m-auto">
