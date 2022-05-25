@@ -92,7 +92,7 @@ return (
             Contact
           </p>
         </div>
-        <div className="mt-4 md:my-0 flex flex-row items-center space-x-2">
+        <div className="mt-4 md:my-0 flex flex-row items-center space-x-4">
           <a href="/">
             <FaLinkedin className="h-6 w-6" />
           </a>

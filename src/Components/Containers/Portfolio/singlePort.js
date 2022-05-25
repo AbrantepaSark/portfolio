@@ -4,7 +4,7 @@ import { FaDesktop } from "react-icons/fa";
  const SinglePort = props => {
   return (
     <div className="h-[150px] md:h-[200px] max-w-md gap-x-1 flex flex-row  drop-shadow-md bg-white">
-      <div className="h-full w-52 flex-1 bg-[#615b59]">
+      <div className="h-full w-52 flex-1 bg-[#38393f]">
         <FaDesktop className="text-white mx-auto my-10 md:my-14 h-16 w-16  md:h-20 md:w-20" />
       </div>
       <div className="flex-1 py-2 md:py-5 px-5 text-lg">
