@@ -16,7 +16,7 @@ import { FaMusic, FaBook, FaGamepad } from "react-icons/fa"
         environments, ready to learn and contribute to team success.
       </p>
       <div className=" mt-8 md:mt-14">
-        <p className=" text-[#e2c647] mb-3 text-lg text-center  md:text-xl">
+        <p className=" text-[#e2c647] mb-3 font-semibold text-center text-xl">
           My Interests
         </p>
         <div className="flex  justify-evenly mt-4">

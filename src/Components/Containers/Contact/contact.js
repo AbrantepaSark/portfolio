@@ -1,55 +1,42 @@
 import React from 'react';
+import { IoIosCall, IoIosMail} from 'react-icons/io'
+import { FaLinkedin, FaTwitter, FaFacebook } from 'react-icons/fa'
 
 import Header from '../Header/header';
+import SingleContact from './SingleContact/singleContact';
 
 const Contact = () => {
   return (
     <div className="py-16 px-6 lg:py-20 lg:px-28 bg-[#33343c]">
       <Header text="Contact" />
 
-      <div className="container drop-shadow-md bg-white p-8 md:m-auto">
-        <p className=" text-center italic">Please fill out this field.</p>
-        <form className="w-full max-w-lg flex flex-col mx-auto">
-          <div className="flex flex-wrap -mx-3 my-5 ">
-            <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-semibold mb-2">
-                Full Name
-              </label>
-              <input
-                className="appearance-none block w-full bg-gray-100 text-sm text-gray-900 rounded-md py-3 px-4  leading-tight focus:outline-none focus:bg-white"
-                id="grid-first-name"
-                type="text"
-                placeholder="Enter name"
-              />
-            </div>
-            <div className="w-full md:w-1/2 px-3">
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-semibold mb-2">
-                Email
-              </label>
-              <input
-                className="appearance-none block w-full bg-gray-100 text-sm text-gray-700 rounded-md py-3 px-4 leading-tight focus:outline-none focus:bg-white"
-                id="grid-last-name"
-                type="email"
-                placeholder="Enter email"
-              />
-            </div>
-          </div>
-          <div className="flex flex-wrap -mx-3 mb-6">
-            <div className="w-full px-3">
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-semibold mb-2">
-                Message
-              </label>
-              <textarea
-                className="appearance-none block w-full bg-gray-100 text-sm text-gray-700  rounded-md py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                rows="6"
-                placeholder="Enter your message"
-              />
-            </div>
-            <button className="bg-[#6d6d6d] hover:bg-[#575656] text-white w-full font-semibold py-2 mx-4 mt-8 rounded-md">
-              Submit
-            </button>
-          </div>
-        </form>
+      <div className="container p-8 md:m-auto">
+        <div className="max-w-md flex flex-col mx-auto justify-center mb-10 text-white">
+          <p className=" text-2xl text-center font-bold">Ways To Contact Me</p>
+          <div className="container mx-auto w-12 h-1 bg-white mt-5"></div>
+        </div>
+        <div className="w-full gap-10 flex flex-wrap justify-center">
+          <SingleContact
+            icon={<IoIosCall className="h-6 w-6" />}
+            text="+233 548974517"
+          />
+          <SingleContact
+            icon={<IoIosMail className="h-6 w-6" />}
+            text="dsarkodie500@gmail.com"
+          />
+          <SingleContact
+            icon={<FaTwitter className="h-6 w-6" />}
+            text="@abrantepaSark"
+          />
+          <SingleContact
+            icon={<FaLinkedin className="h-6 w-6" />}
+            text="Daniel Nyarko Sarkodie"
+          />
+          <SingleContact
+            icon={<FaFacebook className="h-6 w-6" />}
+            text="Abrantepa Nhana Sark"
+          />
+        </div>
       </div>
     </div>
   );

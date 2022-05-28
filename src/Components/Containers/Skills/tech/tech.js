@@ -5,7 +5,7 @@ import SkillBar from '../skillBar';
  const Tech = () => {
   return (
     <div className="flex-1 text-lg">
-      <p className=" text-[#e2c647] mb-5 md:mb-10 text-lg md:text-center  md:text-xl">
+      <p className=" text-[#e2c647] mb-5 md:mb-10 font-semibold md:text-center text-xl">
         Technical Skills
       </p>
       <SkillBar

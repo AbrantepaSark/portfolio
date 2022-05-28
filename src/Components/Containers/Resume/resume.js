@@ -8,11 +8,11 @@ import ResumeSection from './resumeSection';
     <div className="py-16 px-6 lg:py-20 lg:px-28 bg-[#38393f]">
       <Header text="Resume" />
       <div className="flex flex-col text-lg gap-y-10 md:flex-row">
-        <div className="flex-1">
-          <p className="font-semibold text-lg md:text-xl text-[#e2c647]   ">
+        <div className="flex-1 gap-x-5">
+          <p className="font-semibold text-lg text-center md:text-xl text-white   ">
             Work Experience
           </p>
-          <div className="gap-y-5 flex flex-col">
+          <div className=" flex flex-col">
             <ResumeSection
               title="Front-End Web Developer"
               subTitle="Ume Businesses"
@@ -28,10 +28,10 @@ import ResumeSection from './resumeSection';
           </div>
         </div>
         <div className="flex-1">
-          <p className="font-semibold text-[#e2c647]  text-xl ">Education</p>
-          <div className="gap-y-5 flex flex-col">
+          <p className="font-semibold text-white text-center text-xl ">Education</p>
+          <div className=" flex flex-col">
             <ResumeSection
-              title="Bachelor of Science( Computer Science )"
+              title="B.Sc. Computer Science"
               subTitle="University of Cape Coast"
               location="Cape Coast, Ghana"
               time="2017 - 2021"

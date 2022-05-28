@@ -15,32 +15,14 @@ const Hero = () => (
           <p className="md:text-xl font-normal">I am a </p>
           <p className="font-bold text-4xl md:text-6xl">Web Developer</p>
           <p className="leading-6 md:text-xl mt-4 font-thin">
-            I analyse, design and create great web applications, I analyse,
-            design and create great web applications,I analyse, design and
-            create great web applications,I analyse, design and create great web
-            applications
+            Are you looking for a developer for an amazing user interface With
+            great user experience? Lets get connected.
+            I analyse, design and create great web applications.
           </p>
           <div className="mt-6 md:mt-10">
             <Download />
           </div>
         </div>
-        {/* <div>
-          <img className="m-auto h-28 md:h-48 rounded-full" src={pic} alt="" />
-          <div className="px-3 py-3 md:mt-4">
-            <div className="font-semibold text-center font-serif text-white md:text-2xl mb-1">
-              DANIEL NYARKO SARKODIE
-            </div>
-            <p className="text-white text-center font-light">
-              ( Front-End Developer )
-            </p>
-          </div>
-          <p className="text-white text-center font-normal md:text-lg">
-            With 2+ Years of Experience
-          </p>
-          <div className="w-full flex justify-around my-2">
-            <div className="container w-12 h-1 bg-white"></div>
-          </div>
-        </div>*/}
       </div>
     </div>
 
