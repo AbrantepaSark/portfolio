@@ -5,7 +5,7 @@ import proImage from "../Hero/heroImage.jpg";
 
  const SinglePort = props => {
   return (
-    <figure className="h-[400px] max-w-md bg-[#38393f] shadow-md">
+    <figure className="h-[420px] max-w-md bg-[#38393f] shadow-md">
       <img src={proImage} alt="" className="object-cover h-44 w-full" />
 
       <figcaption className=" pt-3 px-8 text-center ">

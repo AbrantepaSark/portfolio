@@ -14,7 +14,7 @@ const Hero = () => (
         <div className="text-center text-white ">
           <p className="md:text-xl font-normal">I am a </p>
           <p className="font-bold text-4xl md:text-6xl">Web Developer</p>
-          <p className="leading-6 md:text-xl mt-4 font-thin">
+          <p className="leading-6 text-xl md:mt-4 mt-2 font-thin">
             Are you looking for a developer for an amazing user interface With
             great user experience? Lets get connected.
             I analyse, design and create great web applications.
