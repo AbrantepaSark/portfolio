@@ -10,7 +10,7 @@ const Contact = () => {
     <div className="py-16 px-6 lg:py-20 lg:px-28 bg-[#33343c]">
       <Header text="Contact" />
 
-      <div className="container p-8 md:m-auto">
+      <div className="container md:m-auto">
         <div className="max-w-md flex flex-col mx-auto justify-center mb-10 text-white">
           <p className=" text-2xl text-center font-bold">Ways To Contact Me</p>
           <div className="container mx-auto w-12 h-1 bg-white mt-5"></div>

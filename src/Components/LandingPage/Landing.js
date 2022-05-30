@@ -93,14 +93,26 @@ return (
           </p>
         </div>
         <div className="mt-4 md:my-0 flex flex-row items-center space-x-4">
-          <a href="/">
-            <FaLinkedin className="h-6 w-6" />
+          <a
+            href="https://www.linkedin.com/in/daniel-nyarko-sarkodie-5a6978205/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="lg:h-7 lg:w-7 h-6 w-6" />
           </a>
-          <a href="/">
-            <FaTwitter className="h-6 w-6" />
+          <a
+            href="https://twitter.com/AbrantepaSark"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaTwitter className="lg:h-7 lg:w-7 h-6 w-6" />
           </a>
-          <a href="/">
-            <FaGithub className="h-6 w-6" />
+          <a
+            href="https://github.com/AbrantepaSark"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="lg:h-7 lg:w-7 h-6 w-6" />
           </a>
         </div>
       </div>

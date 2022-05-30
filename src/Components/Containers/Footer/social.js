@@ -1,9 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 const Social = () => {
-  const github = "https://github.com/AbrantepaSark";
 
   return (
     <div className="flex justify-center space-x-3 ">
@@ -17,22 +15,22 @@ const Social = () => {
         </a>
       </span>
       <span className="inline-block bg-[#33343c]  rounded-full p-3  mr-2 mb-2">
-        <Link
-          to="https://twitter.com/AbrantepaSark"
+        <a
+          href="https://twitter.com/AbrantepaSark"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaTwitter className="h-7 w-7 text-black" />
-        </Link>
+        </a>
       </span>
       <span className="inline-block bg-[#33343c]  rounded-full p-3  mr-2 mb-2">
-        <Link
-          to={{ pathname: github }}
+        <a
+          href="https://github.com/AbrantepaSark"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaGithub className="h-7 w-7 text-black" />
-        </Link>
+        </a>
       </span>
     </div>
   );

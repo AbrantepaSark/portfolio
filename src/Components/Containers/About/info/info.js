@@ -8,7 +8,7 @@ import { FaMusic, FaBook, FaGamepad } from "react-icons/fa"
 
  const Info = () => {
   return (
-    <div className="flex-1  md:text-lg">
+    <div className="flex-1 text-lg">
       <p className=" text-justify text-white">
         I am a hardworking and reliable Developer with strong ability in user
         interface design and development of web applications. I am an Organized

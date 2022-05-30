@@ -9,7 +9,10 @@ const About = () => {
     return (
       <div className="py-16 px-6 lg:py-20 lg:px-28 bg-[#33343c]">
         <Header text="About Me" />
-
+        <div className="max-w-md flex flex-col mx-auto justify-center mb-12 text-white">
+          <p className=" text-2xl text-center font-bold">My Personal Information</p>
+          <div className="container mx-auto w-12 h-1 bg-white mt-5"></div>
+        </div>
         <div className=" flex flex-col gap-y-10 md:flex-row md:space-x-10">
           {/* <Info /> */}
           <div className="flex-1">
