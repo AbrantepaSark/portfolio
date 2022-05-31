@@ -11,37 +11,37 @@ import SkillBar from '../skillBar';
       </p>
 
       <SkillBar
-        title="Professionalism"
+        title="Communication"
         width={"w-11/12"}
         barColor={"bg-[#614f45]"}
         percentage="90%"
       />
       <SkillBar
-        title="Communication"
+        title="Teamwork"
         width={"w-10/12"}
         barColor={"bg-[#614f45]"}
         percentage="80%"
       />
       <SkillBar
         title="Creativity"
-        width={"w-12/12"}
-        barColor={"bg-[#614f45]"}
-        percentage="100%"
-      />
-      <SkillBar
-        title="Attentiveness"
         width={"w-11/12"}
         barColor={"bg-[#614f45]"}
         percentage="90%"
       />
       <SkillBar
-        title="Learning Rate"
+        title="Problem-Solving"
+        width={"w-11/12"}
+        barColor={"bg-[#614f45]"}
+        percentage="90%"
+      />
+      <SkillBar
+        title="Leadership"
         width={"w-10/12"}
         barColor={"bg-[#614f45]"}
         percentage="80%"
       />
       <SkillBar
-        title="Productivity"
+        title="Attention To Details"
         width={"w-11/12"}
         barColor={"bg-[#614f45]"}
         percentage="90%"

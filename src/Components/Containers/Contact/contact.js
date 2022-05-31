@@ -11,11 +11,11 @@ const Contact = () => {
       <Header text="Contact" />
 
       <div className="container md:m-auto">
-        <div className="max-w-md flex flex-col mx-auto justify-center mb-10 text-white">
+        <div className="max-w-md flex flex-col mx-auto justify-center mb-10 md:mb-20 text-white">
           <p className=" text-2xl text-center font-bold">Ways To Contact Me</p>
           <div className="container mx-auto w-12 h-1 bg-white mt-5"></div>
         </div>
-        <div className="w-full gap-10 flex flex-wrap justify-center">
+        <div className="w-full gap-10 flex flex-wrap justify-center ">
           <SingleContact
             icon={<IoIosCall className="h-6 w-6" />}
             text="+233 548974517"

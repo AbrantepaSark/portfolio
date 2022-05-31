@@ -8,10 +8,12 @@ import Header from '../Header/header';
   return (
     <div className="py-16 px-6 lg:py-20 lg:px-28 bg-[#38393f]">
       <Header text="Skills" />
-      
-      <div className="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-16">
-        <Prof />
-        <Tech />
+
+      <div className='flex justify-center '>
+        <div className="flex flex-col w-full lg:w-3/4 md:flex-row space-y-8 md:space-y-0 md:space-x-16">
+          <Prof />
+          <Tech />
+        </div>
       </div>
     </div>
   );

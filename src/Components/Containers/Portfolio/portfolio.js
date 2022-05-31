@@ -11,7 +11,9 @@ const Portfolio = () => {
       <Header text="Portfolio" />
       <div className="flex flex-col justify-center items-center">
         <div className="max-w-md flex flex-col mx-auto justify-center mb-12 text-white">
-          <p className=" text-2xl text-center font-bold">Projects I have undertaken</p>
+          <p className=" text-2xl text-center font-bold">
+            Projects I have undertaken
+          </p>
           <div className="container mx-auto w-12 h-1 bg-white mt-5"></div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 gap-y-14 lg:gap-24 ">

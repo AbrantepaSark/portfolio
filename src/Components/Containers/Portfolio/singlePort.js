@@ -18,7 +18,7 @@ import proImage from "../Hero/heroImage.jpg";
         </p>
         <a
           href="/"
-          className="inline-block mt-6 px-20 py-2 text-lg font-semibold bg-[#e2c647] text-black hover:text-white border border-[#e2c647] hover:bg-transparent"
+          className="inline-block mt-6 px-20 py-1 md:py-2 text-lg font-semibold bg-[#e2c647] text-black hover:text-white border border-[#e2c647] hover:bg-transparent"
         >
           Visit
         </a>
