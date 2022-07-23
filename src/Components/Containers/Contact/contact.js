@@ -16,7 +16,7 @@ const Contact = () => {
     gsap.from(ref.current, {
       scrollTrigger: {
         trigger: ref.current,
-        start: "top 95%",
+        start: "top 99%",
         toggleActions: "play none none none",
       },
       y: 120,

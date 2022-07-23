@@ -14,7 +14,7 @@ const Skills = () => {
     gsap.from(ref.current, {
       scrollTrigger: {
         trigger: ref.current,
-        start: "top 90%",
+        start: "top 95%",
         toggleActions: "play none none none",
       },
       y: 150,
