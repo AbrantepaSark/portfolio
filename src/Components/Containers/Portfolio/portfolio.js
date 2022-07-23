@@ -1,11 +1,26 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 
 import SinglePort from "./singlePort";
 import Header from "../Header/header";
 
-
-
 const Portfolio = () => {
+  gsap.registerPlugin(ScrollTrigger);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    gsap.from(ref.current, {
+      scrollTrigger: {
+        trigger: ref.current,
+        start: "top 95%",
+        toggleActions: "play none none none",
+      },
+      y: 120,
+      opacity: 0,
+      duration: 1,
+    });
+  }, []);
   return (
     <div className=" py-16 px-6 lg:py-20 lg:px-28 bg-[#33343c]">
       <Header text="Portfolio" />
@@ -16,7 +31,10 @@ const Portfolio = () => {
           </p>
           <div className="container mx-auto w-12 h-1 bg-white mt-5"></div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 gap-y-14 lg:gap-24 ">
+        <div
+          ref={ref}
+          className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 gap-y-14 lg:gap-24 "
+        >
           <SinglePort title="ToDo App" />
           <SinglePort title="Weather App" />
           <SinglePort title="Music App" />

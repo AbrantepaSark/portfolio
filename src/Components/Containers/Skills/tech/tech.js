@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-import SkillBar from '../skillBar';
+import SkillBar from "../skillBar";
 
- const Tech = () => {
+const Tech = () => {
   return (
     <div className="flex-1 text-lg">
-      <p className=" text-[#e2c647] mb-5 md:mb-10 font-semibold md:text-center text-xl">
+      <p className=" text-white mb-5 md:mb-10 font-semibold md:text-center text-2xl">
         Technical Skills
       </p>
       <SkillBar
@@ -47,6 +47,6 @@ import SkillBar from '../skillBar';
       />
     </div>
   );
-}
+};
 
 export default Tech;
