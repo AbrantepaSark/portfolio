@@ -9,7 +9,7 @@ const Hero = () => {
   let ref = useRef(null);
 
   useEffect(() => {
-    gsap.from(ref.current, { delay: 0.2, opacity: 0, duration: 1.5, y: 150 });
+    gsap.from(ref.current, { delay: 0.3, opacity: 0, duration: 1.5, y: 150 });
   }, []);
 
   return (

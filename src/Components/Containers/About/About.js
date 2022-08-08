@@ -23,7 +23,7 @@ const About = () => {
       opacity: 0,
       duration: 1.5,
     });
-  });
+  }, []);
 
   useEffect(() => {
     gsap.from(rightRef.current, {
@@ -36,7 +36,7 @@ const About = () => {
       opacity: 0,
       duration: 1.5,
     });
-  });
+  }, []);
 
   return (
     <div className="py-16 px-6 lg:py-20 lg:px-28 bg-[#33343c]">

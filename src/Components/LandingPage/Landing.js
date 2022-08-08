@@ -34,7 +34,7 @@ const Landing = () => {
 
   return (
     <div>
-      <nav className="sticky top-0 z-40 drop-shadow-lg  flex items-center justify-between flex-wrap bg-white py-4 px-7 lg:px-28 lg:py-0">
+      <nav className="fixed top-0 z-10 drop-shadow-lg  flex items-center justify-between flex-wrap bg-white py-4 px-7 lg:px-28 lg:py-0">
         <div className="flex items-center flex-shrink-0 text-[#1d2124]  mr-10">
           <span className="font-bold text-2xl tracking-tight">SARK</span>
         </div>
@@ -58,14 +58,20 @@ const Landing = () => {
         >
           <div className="text-sm lg:flex-grow">
             <p
-              onClick={() => scrollHandler(homeRef)}
+              onClick={() => {
+                scrollHandler(homeRef);
+                //setToggle(!toggle);
+              }}
               className="block mt-4 lg:inline-block lg:mt-0 text-lg lg:hover:bg-gray-800 lg:hover:text-white lg:py-5 lg:px-7 py-2 px-0 "
             >
               Home
             </p>
 
             <p
-              onClick={() => scrollHandler(aboutRef)}
+              onClick={() => {
+                scrollHandler(aboutRef);
+                setToggle(!toggle);
+              }}
               className="block mt-4 lg:inline-block lg:mt-0 text-lg  text-gray-900 lg:hover:bg-gray-800 lg:hover:text-white lg:py-5 lg:px-7 py-2 px-0 "
             >
               About
