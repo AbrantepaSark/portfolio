@@ -1,16 +1,12 @@
 import React from "react";
+import {} from "react-icons/";
 
 const SkillBar = (props) => {
   return (
-    <div className="my-5">
-      <p className="text-white text-sm md:text-lg">{props.title}</p>
-      <div className="container h-4 mt-1 w-12/12 md:w-12/12 bg-slate-400 rounded-xl">
-        <div
-          className={`container h-4 ${props.width} ${props.barColor} rounded-l-xl text-white text-right pr-2 text-sm`}
-        >
-          {props.percentage}
-        </div>
-      </div>
+    <div className="flex flex-col items-center  ">
+      {props.logo}
+      <p className="text-gray-500 font-bold text-2xl">{props.title}</p>
+      <p className="text-gray-500 text-lg">{`${props.years} Years Experience`}</p>
     </div>
   );
 };

@@ -1,33 +1,47 @@
-import React from 'react';
+import React from "react";
 //import { FaDesktop } from "react-icons/fa";
-import proImage from "../Hero/heroImage.jpg";
+import proImage from "../../../assets/project-image.png";
 
-
- const SinglePort = props => {
+const SinglePort = (props) => {
   return (
-    <figure className="h-[420px] max-w-md bg-[#38393f] shadow-md">
-      <img src={proImage} alt="" className="object-cover h-44 w-full" />
+    <figure className="h-[320px]  shadow-md">
+      <img src={proImage} alt="" className="object-cover h-1/2 w-full" />
 
-      <figcaption className=" pt-3 px-8 text-center ">
-        <p className="font-semibold text-lg text-[#e2c647]  mb-1">
+      <figcaption className=" pt-4 px-8  ">
+        <p className="font-semibold text-xl text-gray-500  mb-2">
           {props.title}
         </p>
-        <p className="text-[17px] text-white text-justify leading-normal">
-          This is a ToDo app that built to help users manage their tasks This is
-          a ToDo app that built to help users manage their tasks{" "}
-        </p>
-        <a
-          href="/"
-          className="inline-block mt-6 px-20 py-1 md:py-2 text-lg font-semibold bg-[#e2c647] text-black hover:text-white border border-[#e2c647] hover:bg-transparent"
-        >
-          Visit
-        </a>
+        <div className="flex gap-5 text-sm text-gray-500 ">
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>REACT</p>
+        </div>
+        <div className="flex gap-12">
+          <div>
+            <a
+              href="/"
+              className="inline-block mt-6  text-sm font-semibold text-gray-400 hover:text-gray-500"
+            >
+              VIEW PROJECT
+            </a>
+            <div className="h-[3px] w-full mt-1 bg-yellow-500"></div>
+          </div>
+          <div>
+            <a
+              href="/"
+              className="inline-block mt-6  text-sm font-semibold text-gray-400 hover:text-gray-500"
+            >
+              VIEW CODE
+            </a>
+            <div className="h-[3px] w-full mt-1 bg-yellow-500"></div>
+          </div>
+        </div>
         {/* <p className="mt-3 md:mt-5 text-[16px] underline text-white">
           Visit Site
         </p> */}
       </figcaption>
     </figure>
   );
-}
+};
 
 export default SinglePort;

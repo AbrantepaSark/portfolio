@@ -1,8 +1,7 @@
-import React from 'react';
+import React from "react";
 import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 const Social = () => {
-
   return (
     <div className="flex justify-center space-x-3 ">
       <span className=" bg-[#33343c]  rounded-full p-3  mb-2">
@@ -11,16 +10,16 @@ const Social = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin className="h-7 w-7 text-black" />
+          <FaLinkedin className="h-7 w-7 text-white" />
         </a>
       </span>
       <span className="inline-block bg-[#33343c]  rounded-full p-3  mr-2 mb-2">
         <a
-          href="https://twitter.com/AbrantepaSark"
+          href="https://twitter.com/sark_daniel_"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaTwitter className="h-7 w-7 text-black" />
+          <FaTwitter className="h-7 w-7 text-white" />
         </a>
       </span>
       <span className="inline-block bg-[#33343c]  rounded-full p-3  mr-2 mb-2">
@@ -29,11 +28,11 @@ const Social = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub className="h-7 w-7 text-black" />
+          <FaGithub className="h-6 w-6 text-white" />
         </a>
       </span>
     </div>
   );
-}
+};
 
 export default Social;

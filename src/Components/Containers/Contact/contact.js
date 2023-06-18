@@ -25,13 +25,14 @@ const Contact = () => {
     });
   }, []);
   return (
-    <div className="py-16 px-6 lg:py-20 lg:px-28 bg-[#33343c]">
+    <div className="py-16 px-6 lg:py-20 lg:px-28 ">
       <Header text="Contact" />
 
       <div className="container md:m-auto">
-        <div className="max-w-md flex flex-col mx-auto justify-center mb-10 md:mb-20 text-white">
-          <p className=" text-2xl text-center font-bold">Ways To Contact Me</p>
-          <div className="container mx-auto w-12 h-1 bg-white mt-5"></div>
+        <div className="max-w-md flex flex-col mx-auto justify-center mb-10 md:mb-20 ">
+          <p className=" text-xl text-gray-500 text-center font-bold">
+            Ways To Contact Me
+          </p>
         </div>
         <div ref={ref} className="w-full gap-10 flex flex-wrap justify-center ">
           <SingleContact
@@ -40,11 +41,11 @@ const Contact = () => {
           />
           <SingleContact
             icon={<IoIosMail className="h-6 w-6" />}
-            text="dsarkodie500@gmail.com"
+            text="dsarkodienyarko@gmail.com"
           />
           <SingleContact
             icon={<FaTwitter className="h-6 w-6" />}
-            text="@abrantepaSark"
+            text="@sark_daniel_"
           />
           <SingleContact
             icon={<FaLinkedin className="h-6 w-6" />}

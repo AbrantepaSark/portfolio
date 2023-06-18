@@ -19,13 +19,15 @@ const Hero = () => {
         ref={ref}
         className="absolute box  w-full h-full flex justify-center items-center"
       >
-        <div className="container flex justify-center items-center w-4/5 md:w-1/2">
-          <div className="text-center text-white ">
-            <p className="md:text-xl font-light">I am a </p>
-            <p className="font-bold text-4xl md:text-6xl">Web Developer</p>
-            <p className="leading-6 text-lg md:text-xl md:mt-4 mt-2 font-light">
-              Are you looking for a developer for an amazing user interface With
-              great user experience? Lets get connected.
+        <div className="container font-['Roboto'] flex justify-center items-center  w-[85%] md:w-2/3 lg:w-2/3 xl:1/2">
+          <div className="text-center text-white  ">
+            <p className="md:text-xl mt-20 mb-3 text-xl md:2xl font-light">
+              I am a{" "}
+            </p>
+            <p className="font-bold text-4xl lg:text-6xl">Frontend Developer</p>
+            <p className="leading-7 text-xl md:text-2xl md:mt-4 mt-2 font-light">
+              Deliver amazing user interface With great user experience? Lets
+              get connected.
             </p>
             <div className="mt-6 md:mt-10">
               <Download />
